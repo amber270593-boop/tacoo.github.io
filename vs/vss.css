@@ -1,0 +1,45 @@
+.cosplay-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 50px;
+    background-color: #000;
+}
+
+.card {
+    background-color: #ff8c00;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.img-box {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .name {
+    color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.card .id {
+    color: #333;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
