@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 Taiwan Costume - Halloween</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .logo {
+            background-color: #4a2c6a;
+            padding: 8px 15px;
+            border-radius: 20px;
+            color: #ff8c00;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .nav-links a {
+            color: #ff8c00;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .btn-top {
+            background-color: #ff8c00;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 100px 50px;
+            background: radial-gradient(circle at 20% 50%, #2e1a47 0%, #000000 50%);
+        }
+
+        .hero-text h1 {
+            font-size: 80px;
+            color: #ff8c00;
+            margin: 0;
+            line-height: 1.1;
+            text-shadow: 0 0 10px rgba(255, 140, 0, 0.5); 
+        }
+
+        .hero-buttons {
+            margin-top: 40px;
+        }
+
+        .btn-orange {
+            background-color: #ff8c00;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .btn-purple {
+            background-color: #3d245c;
+            color: #ff8c00;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .hero-image img {
+            width: 400px;
+            border-radius: 10px;
+        }
+
+        .funny-banner {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .funny-banner h1 {
+            font-size: 80px;
+            letter-spacing: 10px;
+            margin: 0;
+        }
+
+        .photo-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #000;
+            padding: 20px;
+        }
+
+        .small-photo {
+            width: 250px;
+            height: auto;
+            border-radius: 15px;
+            border: 2px solid #ff8c00;
+        }
+
+        .arrows {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            color: white;
+        }
+
+        .arrows span {
+            cursor: pointer;
+            margin: 0 30px;
+        }
+
+        .cosplay-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 50px;
+            background-color: #000;
+        }
+
+        .card {
+            background-color: #ff8c00;
+            border-radius: 15px;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .img-box {
+            width: 100%;
+            height: 350px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card .name {
+            color: #000;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        .card .id {
+            color: #333;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#" class="logo">HALLOWEEN</a>
+        <div class="nav-links">
+            <a href="#">Game</a>
+            <a href="#">Cosplay</a>
+            <a href="#">Funny</a>
+        </div>
+        <a href="#" class="btn-top">GET INTO COSTUME</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>2025<br>TAIWAN<br>COSTUME</h1>
+            <div class="hero-buttons">
+                <a href="#" class="btn-orange">GET START</a>
+                <a href="#" class="btn-purple">MORE INFORMATION</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=500" alt="Ghost">
+        </div>
+    </section>
+
+    <section class="funny-banner">
+        <h1>FUNNY</h1>
+    </section>
+
+    <div class="photo-container">
+        <img src="7.jpg" alt="照片1" class="small-photo">
+        <img src="14.jpg" alt="照片2" class="small-photo">
+    </div>
+    
+    <div class="arrows">
+        <span class="arrow-left">&#10094;</span>
+        <span class="arrow-right">&#10095;</span>
+    </div>
+
+    <section class="cosplay-grid">
+        <div class="card">
+            <div class="img-box"><img src="15.jpg" alt="93.06"></div>
+            <p class="name">93.06_______08</p>
+        </div>
+        <div class="card">
+            <div class="img-box"><img src="9.jpg" alt="富江"></div>
+            <p class="name">富江</p>
+            <p class="id">hsinnnnnyen</p>
+        </div>
+        <div class="card">
+            <div class="img-box"><img src="16.jpg" alt="護理屍"></div>
+            <p class="name">護理屍</p>
+            <p class="id">kuang8517</p>
+        </div>
+    </section>
+
+</body>
+</html>
